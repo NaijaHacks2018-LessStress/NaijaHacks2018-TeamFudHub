@@ -1,0 +1,33 @@
+/* Add here all your css styles (customizations) */
+.display-1 {
+	font-size: 40px !important;
+}
+.pt-3 {
+	padding-top: 30px !important;
+}
+.mb-20 {
+	margin-bottom: 20px !important;
+}
+.ml-2 {
+	margin-left: 10px;
+}
+.header-fixed-shrink .navbar-brand.pt-3 {
+	padding-top: 10px !important;
+}
+.upload-product	{
+	padding: 20px 0;
+    background: #18ba9b;
+}
+.shop-subscribe select {
+	background: transparent !important;
+}
+option {
+	color: #000;
+}
+
+@media (min-width: 750px) {
+ /*intel phone*/
+ .form-control.phone {
+    width: 500px !important;
+ }
+}
