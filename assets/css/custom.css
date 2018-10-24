@@ -11,6 +11,9 @@
 .ml-2 {
 	margin-left: 10px;
 }
+.text-sm {
+	font-size: 10px;
+}
 .header-fixed-shrink .navbar-brand.pt-3 {
 	padding-top: 10px !important;
 }
