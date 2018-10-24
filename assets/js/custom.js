@@ -32,7 +32,7 @@ function getallProducts() {
         	$.each(row, function(index, element) {
 			    alert(element.timeStamp); 
 			    products = products + '<div class="col-md-4" data-product="' + element.ID + '"><div class="thumb-product">';
-			    products = products + '<img class="thumb-product-img" src="assets/img/thumb/08.jpg" alt="">';
+			    products = products + '<img class="thumb-product-img" src="assets/img/thumb/8.jpg" alt="">';
 			    products = products + '<div class="thumb-product-in"><h4><a href="shop-ui-inner.html">'+ element.Title +'</a> –';
 			    products = products + ' <a href="shop-ui-inner.html">'+ element.Location +'</a></h4>';
 			    products = products + '<p class="text-sm text-info text-center">'+ element.Description + '</p>';
